@@ -12,9 +12,8 @@ public class NewTest {
 	
   @Test
   public void openMyBlog() {
-	driver.get("https://www.softwaretestingmaterial.com/");
-  }
-  
+	driver.get("http://localhost:9191/");
+	
   @BeforeClass
   public void beforeClass() {
 	  
